@@ -1,0 +1,31 @@
+@media (max-width: 450px) {
+	#app {
+		display: grid;
+		grid-template-columns: none;
+		grid-template-rows: 1fr 1fr;
+		width: 90%;
+		margin-top: 2rem;
+	}
+	.articleImage {
+		border-radius: 2rem 2rem 0rem 0rem;
+	}
+	.articleHeader {
+		font-size: 1.3rem;
+		padding: 2rem;
+	}
+	.descryption {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		font-size: 1rem;
+	}
+	.signatureAndShare {
+		display: none;
+	}
+	.sharingBox {
+		display: flex;
+		position: static;
+		margin-top: auto;
+		width: 100%;
+		border-radius: 0rem 0rem 2rem 2rem;
+	}
+}
